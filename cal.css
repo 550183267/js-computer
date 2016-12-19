@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    color: #6e6e6e;
+}
+
+
+/*计算器*/
+
+#calculator {
+    position: relative;
+    margin: 50px auto;
+    width: 280px;
+    height: 370px;
+    border-radius: 20px;
+    border: 5px solid #fff;
+    background: #f1f1f1;
+}
+
+
+/*计算机范围*/
+
+.cal-con {
+    padding: 10px;
+}
+
+
+/*头部标题*/
+
+h3 {
+    margin: 10px;
+}
+
+
+/*计算区*/
+
+form {
+    text-align: center;
+}
+
+
+/*显示窗口*/
+
+.screen {
+    width: 245px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: right;
+    padding: 5px;
+    line-height: 28px;
+    resize: none;
+    overflow: hidden;
+    font-size: 18px;
+    border: 2px solid #b6b6b6;
+}
+
+
+/*计算按钮*/
+
+.cal-but {
+    margin: 10px 0;
+    border: 2px solid #fff;
+    background: #f1f1f1;
+}
+
+
+/*计算按钮列表*/
+
+ul li {
+    list-style-type: none;
+    width: 45px;
+    height: 35px;
+    background: #ccc;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+    line-height: 35px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .6s;
+}
+
+
+ul li:hover{
+    background: #deb887;
+}
+
+/*底部提示*/
+
+.cal-foot {
+    color: red;
+    text-align: left;
+    font-size: 14px;
+}

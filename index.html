@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>计算器</title>
+    <!-- 引入css -->
+    <link rel="stylesheet" type="text/css" href="cal.css">
+    <link rel="stylesheet" type="text/css" href="cal.css" />
+</head>
+
+<body>
+    <!-- 计算器 -->
+    <div id="calculator">
+        <!-- 计算机范围 -->
+        <div class="cal-con">
+            <!-- 头部标题 -->
+            <h3>计算器</h3>
+            <!-- 计算区 -->
+            <form name="calculator" action="" method="get">
+                <!--显示窗口-->
+                <input type="text" name="screen" id="screen" class="screen" value="0" onfocus="this.blur();" />
+                <!-- 计算按钮 -->
+                <div class="cal-but">
+                    <ul>
+                        <li onclick="cc()">C</li>
+                        <li onclick="del()">←</li>
+                        <li onclick="pandn()">-/+</li>
+                        <li onclick="exc()">/</li>
+                        <li onclick="com(7)">7</li>
+                        <li onclick="com(8)">8</li>
+                        <li onclick="com(9)">9</li>
+                        <li onclick="ride()">*</li>
+                        <li onclick="com(4)">4</li>
+                        <li onclick="com(5)">5</li>
+                        <li onclick="com(6)">6</li>
+                        <li onclick="plus()">+</li>
+                        <li onclick="com(1)">1</li>
+                        <li onclick="com(2)">2</li>
+                        <li onclick="com(3)">3</li>
+                        <li onclick="redu()">-</li>
+                        <li onclick="com(0)">0</li>
+                        <li onclick="spot()">.</li>
+                        <li onclick="leave()">%</li>
+                        <li onclick="equal()">=</li>
+                    </ul>
+                </div>
+                <!-- 底部提示 -->
+                <div class="cal-foot">
+                    <span id="prompt">提示：</span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- 引入js -->
+    <script type="text/javascript" src="cal.js"></script>
+</body>
+
+</html>
